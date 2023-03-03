@@ -19,6 +19,7 @@ body{
 nav{
   background: var(--red);
   padding-block: 15px;
+  width: 100%;
 }
 nav a{
   display: flex;
