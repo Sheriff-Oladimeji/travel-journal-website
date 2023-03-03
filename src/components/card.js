@@ -4,14 +4,17 @@ return (
   <div className="card">
 <img src={props.card.image} alt=""/>
 <article>
-  <div className="location">
+  <div className="card-location">
 <div>
-  <img src={icon} alt=""/><p>{props.card.location}</p>
+  <img src={icon} alt=""/><p className="card-country">{props.card.location}</p>
 </div>
-<a href={props.card.googleMapsUrl}  target="_blank">View on Google Maps</a>
+<a href={props.card.googleMapsUrl}  target="_blank" className="card-link">View on Google Maps</a>
   </div>
-  <h2>{props.card.title}</h2>
-  <h4 className="small">{props.card.startDate}-{props.card.endDate}</h4>
+  <h2  className="card-title">{props.card.title}</h2>
+  <h4 className="card-date">{props.card.startDate}-{props.card.endDate}</h4>
+  <p className="card-desc">
+    {props.card.description}
+  </p>
 </article>
   </div>
 )
