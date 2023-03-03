@@ -66,3 +66,7 @@ margin: 5px 0 15px;
   text-decoration: none;
   border-bottom: 1px solid var(--light);
 }
+.card-date{
+  font-weight: 700;
+  margin-bottom: 10px;
+}
