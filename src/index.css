@@ -11,7 +11,10 @@
   margin: 0;
   padding: 0;
 box-sizing: border-box;
-color: var(--primary);
+
+}
+body{
+  color: var(--primary);
 }
 nav{
   background: var(--red);
@@ -27,7 +30,7 @@ nav a{
 }
 .card-container{
   width: 80%;
-  margin: 30px auto;
+  margin: 30px auto 0;
 }
 .card{
   display: flex;
@@ -35,6 +38,7 @@ nav a{
   justify-content:space-between;
   gap: 25px;
   font-size: var(--small);
+  margin-bottom: 30px;
 }
 
 .card-location{
@@ -51,4 +55,10 @@ font-weight: 700;
 .card-title{
   font-size: var(--bold);
   font-weight: 700;
+margin: 5px 0 15px;
+}
+.card-link{
+  color: var(--light);
+  text-decoration: none;
+  border-bottom: 1px solid var(--light);
 }
