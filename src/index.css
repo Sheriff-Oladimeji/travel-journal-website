@@ -24,3 +24,15 @@ nav a{
   text-decoration: none;
   gap: 10px;
 }
+.card{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.card-container{
+  width: 80%;
+  margin: 30px auto;
+}
+.card-location{
+  display: flex;
+}
