@@ -35,7 +35,7 @@ nav a{
 .card{
   display: flex;
   align-items: center;
-  justify-content:space-between;
+
   gap: 25px;
   font-size: var(--small);
   margin-bottom: 20px;
