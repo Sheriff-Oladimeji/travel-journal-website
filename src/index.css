@@ -6,3 +6,11 @@
 --bold: 25px;
 --small: 12px;
 }
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+nav{
+  background: var(--red);
+}
