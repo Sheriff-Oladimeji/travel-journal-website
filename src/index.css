@@ -38,9 +38,13 @@ nav a{
   justify-content:space-between;
   gap: 25px;
   font-size: var(--small);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border-bottom: var(--line) 1px solid;
 }
-
+.card:last-of-type{
+  border: none;
+}
 .card-location{
   display: flex;
   gap: 15px;
