@@ -1,5 +1,6 @@
 # My Travel Journal 
-A travel joural Website
+## Description
+A travel journal Website focused on learning the basics of react.js
 ## Built with
 - React.js
 - HTML
